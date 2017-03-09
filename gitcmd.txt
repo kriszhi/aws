@@ -1,0 +1,120 @@
+   61  wget https://raw.github.com/ansible/ansible/devel/contrib/inventory/ec2.py
+   67  wget https://raw.githubusercontent.com/ansible/ansible/devel/contrib/inventory/ec2.ini
+  333  git submodule update --init --recursive
+  339  git submodule update --init --recursive
+  340  locate .git
+  352  git clone git://github.com/ansible/ansible.git --recursive
+  687  yum remove git
+  688  yum update git
+  689  yum install git -y
+  691  wget ftp://ftp.icm.edu.pl/vol/rzm5/linux-slc/centos/7.1.1503/sclo/x86_64/rh/git19/git19-git-1.9.4-3.el7.x86_64.rpm
+  692  rpm -ivh git19-git-1.9.4-3.el7.x86_64.rpm 
+  693  wget http://rpm.pbone.net/index.php3/stat/4/idpl/35494739/dir/centos_7/com/git19-perl-Git-1.9.4-3.el7.noarch.rpm.html
+  694  wget ftp://ftp.rediris.es/volumes/sites/centos.org/7.3.1611/sclo/x86_64/rh/git19/git19-perl-Git-1.9.4-3.el7.noarch.rpm
+  695  wget ftp://ftp.icm.edu.pl/vol/rzm5/linux-centos/7.3.1611/sclo/x86_64/rh/git19/git19-perl-Git-1.9.4-3.el7.noarch.rpm
+  696  rpm -ivh git19-perl-Git-1.9.4-3.el7.noarch.rpm 
+  697  rpm -ivh "ftp://ftp.icm.edu.pl/vol/rzm5/linux-slc/centos/7.1.1503/sclo/x86_64/rh/git19/git19-git-1.9.4-3.el7.x86_64.rpm"
+  698  wget ftp://ftp.icm.edu.pl/vol/rzm5/linux-slc/centos/7.1.1503/sclo/x86_64/rh/git19/git19-git-1.9.4-3.el7.x86_64.rpm
+  699  rpm -ivh git19-git-1.9.4-3.el7.x86_64.rpm
+  700  wget ftp://ftp.pbone.net/mirror/ftp.centos.org/7.3.1611/sclo/x86_64/rh/git19/git19-runtime-1.2-4.el7.x86_64.rpm
+  701  rpm -ivh git19-runtime-1.2-4.el7.x86_64.rpm 
+  703  rpm -ivh git19-runtime-1.2-4.el7.x86_64.rpm 
+  704  rpm -ivh git19-git-1.9.4-3.el7.x86_64.rpm
+  706  rm -ivh git19-*.rpm
+  711  rpm -ivh git19-git-1.9.4-3.el7.x86_64.rpm
+  712  rpm -ivh git19-perl-Git-1.9.4-3.el7.noarch.rpm 
+  713  rpm --nodeps -ivh git19-perl-Git-1.9.4-3.el7.noarch.rpm 
+  714  rpm -ivh git19-git-1.9.4-3.el7.x86_64.rpm
+  715  git
+  717  rpm -qa git
+  718  rpm -qa git19
+  719  rpm -qa | grep git19
+  720  rpm -qa | grep git
+  721  yum provides "/bin/git"
+  722  yum whatprovides "/bin/git"
+  723  yum whatprovides "*/bin/git"
+  724  wget https://www.kernel.org/pub/software/scm/git/git-2.0.5.tar.gz
+  725  yum remove git 
+  726  yum remove git -y
+  727  rpm -qa | grep git
+  728  yum remove git19*
+  729  rpm -qa | grep git19
+  730  rpm -ev git19-perl-Git-1.9.4-3.el7.noarch
+  731  rpm --nodeps -ev git19-perl-Git-1.9.4-3.el7.noarch
+  732  rpm --nodeps -ev git19-runtime-1.2-4.el7.x86_64
+  733  rpm --nodeps -ev git19-git-1.9.4-3.el7.x86_64
+  734  rpm -qa | grep git19
+  735  tar xvzf git-2.0.5.tar.gz 
+  736  cd git-2.0.5
+  738  make prefix=/usr/local/git all
+  741  make prefix=/usr/local/git all
+  742  make prefix=/usr/local/git install
+  743  echo "export PATH=$PATH:/usr/local/git/bin" >> /etc/bashrc
+  745  git --version
+  747  git --version
+  748  rpm -qa | grep git
+  749  yum remove git -y
+  750  git --version
+  751  make prefix=/usr/local/git all
+  752  make prefix=/usr/local/git install
+  754  git --version
+  763  git 
+  802  git logs
+  803  git log
+  805  mkdir git-project
+  806  cd git-project/
+  807  git init .
+  809  git add test.txt 
+  810  git status
+  811  git commit test.txt 
+  812  git commit .
+  814  git commit .
+  815  git commit 
+  817  git commit .
+  818  git commit 
+  819  git commit -m " add new folder"
+  821  git log
+  822  git status
+  823  git remote add orgin https://github.com/kriszhi/aws.git
+  824  git push -u origin master
+  825  git remote add origin https://github.com/kriszhi/aws.git
+  826  git push -u origin master
+  831  git clone https://github.com/kriszhi/aws.git
+  835  locate git-project
+  837  locate git-project
+  838  cd /root/git-project/
+  840  git push -u origin master
+  842  git add test
+  843  git commit -m "all folder"
+  844  git status
+  845  git remote add origin https://github.com/kriszhi/aws.git
+  846  git --help
+  848  git remote add test https://github.com/kriszhi/aws.git
+  849  git push -u origin master
+  851  git add .
+  852  git commit .
+  854  git add test
+  855  git status
+  857  git add ../git-project/
+  859  git branch -I
+  860  git branch -a
+  861  git branch -l
+  912  git --help
+  975  curl -L https://github.com/docker/machine/releases/download/v0.10.0/docker-machine-`uname -s`-`uname -m` >/tmp/docker-machine &&   chmod +x /tmp/docker-machine &&   sudo cp /tmp/docker-machine /usr/local/bin/docker-machine
+ 1005  cd git-project/
+ 1008  git status
+ 1009  git add .
+ 1010  git commit .
+ 1011  git commit -m "change comment"
+ 1013  git add test
+ 1014  git status
+ 1015  git --help
+ 1016  git clean
+ 1017  git clean -f
+ 1021  git add test
+ 1022  git status
+ 1023  git push .
+ 1025  history | grep git
+ 1026  git push -u origin master
+ 1036  git push -u origin master
+ 1037  history | grep git > gitcmd.txt 
